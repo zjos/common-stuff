@@ -1,8 +1,9 @@
 {
-  "name": "zjos28",
-  "version": "0.000001",
-  "description": "Some common stuff used over many projects",
-  "main": "test/test.ts",
+  "name": "@zjos28/common-dev-stuff",
+  "type": "module",
+  "version": "0.0.3-dev",
+  "description": "Some common dev stuff used over many projects",
+  "main": "/types/kris.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

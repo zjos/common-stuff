@@ -1,9 +1,9 @@
 {
-  "name": "@zjos28/common-dev-stuff",
+  "name": "@zjos28/common-stuff",
   "type": "module",
-  "version": "0.0.1-dev",
-  "description": "Some common dev stuff used over many projects",
-  "main": "/types/kris.d.ts",
+  "version": "0.1.4-dev",
+  "description": "Some common stuff used over many projects",
+  "main": "/css/common-globals.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
