@@ -1,0 +1,27 @@
+{
+  "name": "@zjos28/common-stuff",
+  "type": "module",
+  "version": "0.1.2-dev",
+  "description": "Some common stuff used over many projects",
+  "main": "/css/common-globals.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zjos/common-stuff.git"
+  },
+  "keywords": [
+    "nextjs",
+    "css",
+    "nextui",
+    "tailwind",
+    "stuff"
+  ],
+  "author": "Zjos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zjos/common-stuff/issues"
+  },
+  "homepage": "https://github.com/zjos/common-stuff#readme"
+}
