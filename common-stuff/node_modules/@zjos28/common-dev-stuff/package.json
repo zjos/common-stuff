@@ -1,7 +1,7 @@
 {
   "name": "@zjos28/common-dev-stuff",
   "type": "module",
-  "version": "0.0.3-dev",
+  "version": "0.1.5-dev",
   "description": "Some common dev stuff used over many projects",
   "main": "/types/kris.d.ts",
   "scripts": {

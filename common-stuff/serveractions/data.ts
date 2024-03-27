@@ -6,7 +6,7 @@ export const fetchAPI = async (url: string, method: string, crmConfig:crmPlatfor
 
 	const requestOptions: RequestInit = {
 		method: method,
-		cache: 'no-cache', // important
+		cache: 'no-cache',
 		headers: {
 			Authorization: `Bearer ${token.token}`,
 			'Content-Type': 'application/json',
@@ -57,7 +57,7 @@ export const isValidToken = async (token: string, api_isvalidtoken_url: string) 
 
 	// Controleer token op geldigheid
 	const response = await fetch(api_isvalidtoken_url, {
-		cache: 'no-cache', // belangrijk
+		cache: 'no-cache', 
 		headers: { Authorization: `Bearer ${token}` },
 	});
 

@@ -2,6 +2,7 @@
 import { crmPlatformConnectConfig } from '@zjos28/common-dev-stuff/types/kris';
 import { fetchAPI } from '../data';
 export const getDossierTypes = async (crmConfig: crmPlatformConnectConfig, code?: string) => {
+	console.log('🚀 xxxxx ~ getDossierTypes ~ codeaaaaaaaaaaaaaaa:', code)
 	console.log('getDossierTypes');
 
 	//TODO config ophalen ahv crmName
