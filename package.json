@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/zjos/common-stuff/issues"
   },
-  "homepage": "https://github.com/zjos/common-stuff#readme"
+  "homepage": "https://github.com/zjos/common-stuff#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
 }

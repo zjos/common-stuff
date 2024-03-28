@@ -23,13 +23,12 @@ html {
 }
 
 body {
-    font-family: 'Flanders Art Sans', 'Times New Roman', Times, serif;
-    background-color: blueviolet;
+    font-family: 'Flanders Art Sans', sans-serif;
 }
 
 @layer components {
     body {
-        @apply md:text-lg text-red-700
+        @apply md:text-lg text-slate-600
     }
 
     .a-common {
