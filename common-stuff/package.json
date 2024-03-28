@@ -1,7 +1,7 @@
 {
   "name": "@zjos28/common-stuff",
   "type": "module",
-  "version": "0.1.5-dev",
+  "version": "0.1.6-dev",
   "description": "Some common stuff used over many projects",
   "main": "/css/common-globals.css",
   "scripts": {
