@@ -1,7 +1,7 @@
 {
   "name": "@zjos28/common-stuff",
   "type": "module",
-  "version": "0.1.6-dev",
+  "version": "0.1.7-dev",
   "description": "Some common stuff used over many projects",
   "main": "/css/common-globals.css",
   "scripts": {
@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/zjos/common-stuff#readme",
   "devDependencies": {
-    "@zjos28/common-dev-stuff": "file:../common-dev-stuff"
+    "@zjos28/common-dev-stuff": "file:../common-dev-stuff",
+    "tailwindcss": "^3.4.3"
   }
 }
