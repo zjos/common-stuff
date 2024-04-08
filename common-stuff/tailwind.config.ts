@@ -13,6 +13,7 @@ const config: Config = {
 				h4: 'clamp(1.125rem, 2vw, 1.5rem)',
 				h5: 'clamp(1rem, 1.25vw, 1.25rem)',
 				h6: 'clamp(1rem, 1.25vw, 1.25rem)',
+				toast: 'clamp(0.8rem, 1.25vw, 1.5rem)',
 			},
 			colors: {
 				primary: {
