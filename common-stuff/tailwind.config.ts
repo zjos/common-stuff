@@ -1,11 +1,19 @@
 import type { Config } from 'tailwindcss';
-import colors, { white } from 'tailwindcss/colors';
+import colors from 'tailwindcss/colors';
 
 const config: Config = {
-	content: [
-	],
+	content: [],
 	theme: {
 		extend: {
+			fontSize: {
+				body: 'clamp(1rem, 1.25vw, 1.25rem)',
+				h1: 'clamp(1.875rem, 5vw, 3rem)',
+				h2: 'clamp(1.5rem, 4vw, 2.25rem)',
+				h3: 'clamp(1.25rem, 3vw, 1.875rem)',
+				h4: 'clamp(1.125rem, 2vw, 1.5rem)',
+				h5: 'clamp(1rem, 1.25vw, 1.25rem)',
+				h6: 'clamp(1rem, 1.25vw, 1.25rem)',
+			},
 			colors: {
 				primary: {
 					'50': '#edfff5',
